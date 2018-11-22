@@ -1,0 +1,3 @@
+1、npm install express       安装局部express
+2、配置环境变量（配置两个地方：一个是Path：当前路径\node_modules\.bin）
+3、 express --version     (查看是否安装成功，若提示为express: command not found 查看当前路径\node_modules\.bin\下是否有express.cmd文件，若没有需要安装npm install express-generator     此时你可以看到  当前路径\node_modules\.bin\下已经有express.cmd文件 ，重新打开git-box, 输入express --version命令，便可查看到版本号，安装配置成功)
